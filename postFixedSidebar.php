@@ -51,7 +51,7 @@ get_template_part('template-parts/javascript/tableOfContents');
 			</section>
 		<?php }
 		?>
-		<?php get_template_part('template-parts/content/phoneTreatmentCta'); ?>
+
 	</div>
 	<?php get_sidebar('fixed'); ?>
 </main>

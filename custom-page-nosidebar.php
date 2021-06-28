@@ -33,7 +33,7 @@ sbh_center()->print_styles('sbh_center-content');
 			</div>
 		<?php endif; ?>
 
-		<div class="hide_on_mobile">
+		<div class="hide_on_mobile show_on_tablet">
 			<h1><?php echo get_field('page_headline') ?></h1>
 			<p class="hero_subheadline"><?php echo get_field('page_subheadline_paragraph') ?></p>
 		</div>
@@ -41,7 +41,7 @@ sbh_center()->print_styles('sbh_center-content');
 		<div class="page_content_below_image">
 			<!-- Covid Notice -->
 			<section class="covid_section hide_on_desktop">
-				<a href="/our-response-to-the-corona-virus-health-concern/">Learn about Our Covid response</a>
+				<a href="/about-us/">Learn about Our Covid response</a>
 			</section>
 
 			<!-- Medical Review -->

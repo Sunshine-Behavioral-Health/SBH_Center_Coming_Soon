@@ -242,9 +242,6 @@ jQuery(document).ready(function ($) {
 "use strict";
 jQuery(document).ready(function (e) {
   e("#primary-menu > li").addClass("top_level_nav_item"),
-    e("#primary-menu .top_level_nav_1 > a").attr("href", "#"),
-    e("#primary-menu .top_level_nav_2 > a").attr("href", "#"),
-    e("#primary-menu .top_level_nav_3 > a").attr("href", "#"),
     e(".top_level_nav_item").click(function () {
       e(".top_level_nav_item").not(e(this)).removeClass("active_nav_item"),
         e(".top_level_nav_item")

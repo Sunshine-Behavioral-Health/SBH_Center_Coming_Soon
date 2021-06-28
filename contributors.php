@@ -31,7 +31,7 @@ get_template_part('template-parts/javascript/navigationJs');
 
 			<!-- Covid Notice -->
 			<section class="covid_section hide_on_desktop">
-				<a href="/our-response-to-the-corona-virus-health-concern/">Learn about Our Covid response</a>
+				<a href="/about-us/">Learn about Our Covid response</a>
 			</section>
 
 			<section class="page_content list_styling ">
@@ -118,7 +118,7 @@ get_template_part('template-parts/javascript/navigationJs');
 			<section class="page_disclosure_section">
 				<?php get_template_part('template-parts/content/pageDisclaimer'); ?>
 			</section>
-			<?php get_template_part('template-parts/content/phoneTreatmentCta'); ?>
+
 		</div>
 	</div>
 </main>

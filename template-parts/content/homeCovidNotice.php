@@ -2,8 +2,7 @@
 
 <section class="covid19_section">
     <div class="covid19_container">
-        <img src="<?php $uploadDir = wp_upload_dir();
-                    echo $uploadDir['baseurl'] . '/sbh_center_theme_images/icons/plus_icon_white.png' ?>" alt="">
+        <img src="<?php echo get_field('plus_icon', 'option')['url'] ?>" alt="">
         <h4>Get Help During COVID-19</h4>
         <div class="covid19_content hide">
             <div class="covid19_notice_body ">

@@ -22,7 +22,7 @@ $centerSelection = get_field('customized_map_center_options');
                                                                 echo $uploadDir['baseurl'] . '/sbh_center_theme_images/customized_map/customized_map_body_chapters.jpg' ?>" alt="">
                     <a id="customziedMapPhoneCta" class="invocaNumber customzied_map_cta customziedMapPhoneCta" onclick="dataLayer.push({'event': 'phone_click', 'shortcode_type' : 'customziedMapPhoneCta'});" href="tel:949-276-2886">Talk to Our Intake Coordinators</a>
                 </div>
-            <?php elseif ($centerSelection == "Lincoln Recovery") : ?>
+            <?php elseif ($centerSelection == "<?php echo get_field('site_name', 'option') ?>") : ?>
                 <img class="customized_map_banner" src="<?php $uploadDir = wp_upload_dir();
                                                         echo $uploadDir['baseurl'] . '/sbh_center_theme_images/customized_map/customized_map_header_lincoln.jpg' ?>" alt="">
                 <div class="customized_map_iframe_wrapper hide_on_desktop hide_on_tablet">
@@ -100,7 +100,7 @@ $centerSelection = get_field('customized_map_center_options');
             <?php if (get_field('customized_map_legal_notice')) : ?>
                 <?php if ($centerSelection == "Chapters Capistrano") : ?>
                     <p class="customized_map_legal_notice">Our closest facility is in California</p>
-                <?php elseif ($centerSelection == "Lincoln Recovery") : ?>
+                <?php elseif ($centerSelection == "<?php echo get_field('site_name', 'option') ?>") : ?>
                     <p class="customized_map_legal_notice">Our closest facility is in Illinois</p>
                 <?php elseif ($centerSelection == "Monarch Shores") : ?>
                     <p class="customized_map_legal_notice">Our closest facility is in California</p>

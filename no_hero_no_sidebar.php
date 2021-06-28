@@ -36,7 +36,7 @@ sbh_center()->print_styles('sbh_center-custom-page-nosidebar', 'sbh_center-conte
             <?php echo get_field('content') ?>
 
             <?php get_template_part('template-parts/content/pageDisclaimer'); ?>
-            <?php get_template_part('template-parts/content/phoneTreatmentCta'); ?>
+
         </div>
     </div>
 </main>

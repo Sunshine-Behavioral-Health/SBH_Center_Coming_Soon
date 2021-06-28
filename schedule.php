@@ -40,7 +40,7 @@ get_template_part('template-parts/javascript/navigationJs');
 		</div>
 	</section>
 
-	<?php get_template_part('template-parts/content/phoneTreatmentCta'); ?>
+
 
 
 	<section class="page_disclosure_section">

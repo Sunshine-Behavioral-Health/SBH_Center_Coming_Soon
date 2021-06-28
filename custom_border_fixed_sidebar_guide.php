@@ -61,6 +61,7 @@ get_template_part('template-parts/javascript/fixedSidebarJs');
 		</section>
 
 		<?php get_template_part('template-parts/content/phoneTreatmentCta'); ?>
+
 	</div>
 	<?php get_sidebar('dynamic_fixed'); ?>
 </main>

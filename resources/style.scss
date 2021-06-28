@@ -84,6 +84,10 @@ This theme, like WordPress, is licensed under the GPL.
 @import "scss/shortcodes/faq_sidebar";
 @import "scss/shortcodes/accordion_with_toc";
 
+@import "scss/coming_soon/header";
+@import "scss/coming_soon/footer";
+@import "scss/coming_soon/home";
+
 // Very bottom css for specificity reasons
 .show {
   display: block !important;

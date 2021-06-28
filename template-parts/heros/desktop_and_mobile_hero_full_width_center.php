@@ -7,7 +7,7 @@
         <div class="hero_banner_headlines_wrapper">
             <?php if ($centerValue == "Chapters Capistrano") : ?>
                 <img class="hero_center_logo" src="<?php echo get_field('chapters_capistrano_logo', 'option')['url']; ?>" alt="">
-            <?php elseif ($centerValue == "Lincoln Recovery") : ?>
+            <?php elseif ($centerValue == "<?php echo get_field('site_name', 'option') ?>") : ?>
                 <img class="hero_center_logo" src="<?php echo get_field('lincoln_recovery_logo', 'option')['url']; ?>" alt="">
             <?php elseif ($centerValue == "Monarch Shores") : ?>
                 <img class="hero_center_logo" src="<?php echo get_field('monarch_shores_logo', 'option')['url']; ?>" alt="">

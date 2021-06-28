@@ -57,7 +57,7 @@ get_template_part('template-parts/javascript/navigationJs');
 			</section>
 
 			<!-- Treatment Phone CTA -->
-			<?php get_template_part('template-parts/content/phoneTreatmentCta'); ?>
+
 
 		</div>
 		<?php get_sidebar(); ?>

@@ -34,7 +34,7 @@ $centerValue = get_field('center')
 
             <?php get_template_part('template-parts/content/pageDisclaimer'); ?>
 
-            <?php get_template_part('template-parts/content/phoneTreatmentCta'); ?>
+
         </div>
     </div>
 </main>
